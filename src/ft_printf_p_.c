@@ -6,13 +6,13 @@
 /*   By: zhihao <zhihao@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/15 12:44:59 by zhihao            #+#    #+#             */
-/*   Updated: 2022/12/17 19:01:59 by zhihao           ###   ########.fr       */
+/*   Updated: 2022/12/20 00:55:21 by zhihao           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_printf.h"
 
-static int ft_change_base(unsigned long n)
+static int	ft_change_base(unsigned long n)
 {
 	int	i;
 

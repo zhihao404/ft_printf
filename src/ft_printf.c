@@ -6,7 +6,7 @@
 /*   By: zhihao <zhihao@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/14 19:42:03 by zhihao            #+#    #+#             */
-/*   Updated: 2022/12/17 17:53:37 by zhihao           ###   ########.fr       */
+/*   Updated: 2022/12/20 00:56:18 by zhihao           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,7 +37,7 @@ static char	*ft_strchr(const char *s, int c)
 	return (NULL);
 }
 
-static int ft_formats(va_list args, const char *format, int i)
+static int	ft_formats(va_list args, const char *format, int i)
 {
 	if (format[i + 1] == 'c')
 		return(ft_putchar(va_arg(args, int)));
